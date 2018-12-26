@@ -1,0 +1,13 @@
+{
+  "admin": "",
+  "profiles": [
+    {
+      "username": "",
+      "password": "",
+      "secrets": {
+        "shared": "",
+        "identity": ""
+      }
+    }
+  ]
+}
