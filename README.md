@@ -27,6 +27,10 @@
   You can run it by typing `npm start` in the console,
   or by launching the start.bat file, if, again, future me will add one.
 
+7.
+  If all goes well, the end result would look something like this
+  ![img](https://i.imgur.com/LVO24BO.png)
+
 # Accounts
 
 To add accounts that will be getting trading cards for your lazy ass,
