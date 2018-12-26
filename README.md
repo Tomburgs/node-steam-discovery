@@ -2,14 +2,20 @@
 
 1.
   To get started, you want to install NodeJS.
+
   Which version? I don't know. You can never go wrong with the [latest-stable](https://nodejs.org/en/), I guess.
+
   (If you were not smart enough to click the latest-stable link, [this](https://nodejs.org/en/) is another link to the NodeJS website)
 
 2.
   Download the files (in-case you already didn't figure it out)!
+
   Have git installed? Great!
+
   just type `git clone https://github.com/TomYoki/node-steam-discovery`
+
   Don't have it?
+
   There's a 'download files' button...
 
 3.
@@ -17,14 +23,17 @@
 
 4.
   Type `npm i`, this will download all the necessary libraries. This may take a minute or two.
+
   Or just launch the install.bat file, if future me will ever add one.
 
 5.
   If you got this far and had no idea what you were doing - good job!
+
   You can now follow the steps bellow to fill out the cfg.json file and run it.
 
 6.
   You can run it by typing `npm start` in the console,
+
   or by launching the start.bat file, if, again, future me will add one.
 
 # Accounts
@@ -65,4 +74,5 @@ Once the bot is done farming the cards, each bot will automatically send you you
 # How do I contribute?
 
 If you're good with JavaScript and are willing to waste your time, feel free to do so!
+
 This project could easily use a few more features.
