@@ -1,0 +1,29 @@
+{
+  "name": "steam-discovery",
+  "version": "1.0.0",
+  "description": "Automatic bot to get free seasonal Steam Trading Cards.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Steam",
+    "Discovery",
+    "Steam",
+    "Trading",
+    "Cards"
+  ],
+  "author": "TomYoki",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "steam-totp": "^2.1.0",
+    "steam-tradeoffer-manager": "^2.9.4",
+    "steam-user": "^3.29.1",
+    "steamcommunity": "^3.38.0"
+  }
+}
