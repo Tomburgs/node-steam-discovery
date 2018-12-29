@@ -1,13 +1,13 @@
 # How-to-use this magic
 
-1.
+## 1. NodeJS Version
   To get started, you want to install NodeJS.
 
   Which version? I don't know. You can never go wrong with the [latest-stable](https://nodejs.org/en/), I guess.
 
   (If you were not smart enough to click the latest-stable link, [this](https://nodejs.org/en/) is another link to the NodeJS website)
 
-2.
+## 2. Downloading The Files
   Download the files (in-case you already didn't figure it out)!
 
   Have git installed? Great!
@@ -18,20 +18,20 @@
 
   There's a 'download files' button...
 
-3.
+## 3. Opening The Downloaded Folder
   Navigate to the folder, either using `cd <file-directory>` or by opening the folder.
 
-4.
+## 4. Installing Dependencies
   Type `npm i`, this will download all the necessary libraries. This may take a minute or two.
 
   Or just launch the install.bat file, if future me will ever add one.
 
-5.
+## 5. Updating Configurations
   If you got this far and had no idea what you were doing - good job!
 
   You can now follow the steps bellow to fill out the cfg.json file and run it.
 
-6.
+## 6. Starting The Bot
   You can run it by typing `npm start` in the console,
 
   or by launching the start.bat file, if, again, future me will add one.
