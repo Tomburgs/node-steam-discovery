@@ -1,22 +1,24 @@
-# How-to-use this magic
+# node-steam-discovery
+
+This is an automated Node.js script for farming Steam's trading cards during their special sale events.
 
 ## 1. NodeJS Version
   To get started, you want to install NodeJS.
 
-  Which version? I don't know. You can never go wrong with the [latest-stable](https://nodejs.org/en/), I guess.
+  On Mac:
+  ```bash
+  brew install node
+  ```
 
-  (If you were not smart enough to click the latest-stable link, [this](https://nodejs.org/en/) is another link to the NodeJS website)
+  Linux (Ubuntu):
+  ```
+  apt install node
+  ```
+
+  On Windows you can go [here](https://nodejs.org/en/).
 
 ## 2. Downloading The Files
-  Download the files (in-case you already didn't figure it out)!
-
-  Have git installed? Great!
-
-  just type `git clone https://github.com/TomYoki/node-steam-discovery`
-
-  Don't have it?
-
-  There's a 'download files' button...
+  `git clone git@github.com:Tomburgs/node-steam-discovery.git`
 
 ## 3. Opening The Downloaded Folder
   Navigate to the folder, either using `cd <file-directory>` or by opening the folder.
@@ -38,11 +40,7 @@
 
 # Accounts
 
-To add accounts that will be getting trading cards for your lazy ass,
-you have to go to cfg.json and add each account you wish to queue MANUALLY.
-We at 'Yoki Co.' are no god damn wizards. To be entirely honest, we have no clue how our code even works.
-So, please, if you want your trading cards just fill out that magical form, located in cfg.json file.
-It will be under "profiles".
+You have to go to cfg.json and add each account you wish to queue under the "profiles" key.
 
 ```json
 {
@@ -57,13 +55,8 @@ It will be under "profiles".
 
 # Getting the cards
 
-Woah! Did you really thought we would leave the job only half-done?
-If you did then you are SUPER DUPER MEGA wrong, you can easily make the bot
-send you your cards! In-fact you should, because we're honestly not sure what would happen
-if you won't enter your SteamID64. It might be fine, it might murder your entire family!
-If you're that tough, go ahead and find out, till then just fill out the configuration file.
 All you want to do is enter your SteamID64 in the cfg.json file.
-Once the bot is done farming the cards, each bot will automatically send you your cards!
+Once the bot is done farming the cards, each bot will automatically send you your cards.
 
 ```json
 {
